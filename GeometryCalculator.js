@@ -1,0 +1,12 @@
+exports.cubevolume = function(a) {return(a*a*a)}
+exports.surface_area_of_cube = function(a) {return(6*Math.pow(a,2))}
+exports.cuboidvolume = function(l,b,h) {return(l*b*h)}
+exports.cuboid_surface_area = function(l,b,h) {return(2*((l*b)+(b*h)+(l*h)))}
+exports.spherevolume = function(r) {return(4/3*Math.PI*r*r*r)}
+exports.cylinder_surface_area = function(r,h) {return((2*Math.PI*r*h)+(2*Math.PI*r*r))}
+exports.conevolume = function(r,h) {return((3.14*r*r*(h/3)))}
+exports.cone_surface_area = function(r,h) {return(Math.PI*r*(r+(Math.sqrt(Math.pow(r,2)+Math.pow(h,2)))))}
+exports.pyramidvolume = function(b,h) {return((1/3)*b*h)}
+exports.pyramid_surface_area = function(a,b,h) {return(a+((1/2)*b*h))}
+exports.ellipsoidvolume = function(a,b,c) {return((4,3)*Math.PI*a*b*c)}
+exports.ellipsoid_surface_area = function(a,b,c) {return(((4*Math.PI*(Math.pow(a,1.6)*(Math.pow(b,1.6))+ Math.pow(b,1.6)*(Math.pow(c,1.6))+Math.pow(a,1.6)*(Math.pow(c,1.6)))/3))*(1/1.6))}
